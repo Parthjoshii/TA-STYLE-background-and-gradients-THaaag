@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* General Styles */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+body {
+	background-color: rgb(29, 32, 41);
+	font-family: 'Rubik', sans-serif;
+	color: white;
+}
+/* Header */
+header {
+	padding-top: 20px;
+	background-color: #201720;
+	padding-bottom: 50px;
+	margin-bottom: -50px;
+}
+.h1{
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+small {
+	color: rgb(94, 99, 129);
+	padding: 5px;
+}
+.dark {
+	width: 50px;
+	height: 25px;
+	background:linear-gradient(to right, green, aqua);
+	border-radius: 25px;
+}
+.blue {
+	width: 18px;
+	height: 18px;
+	background-color: rgb(29, 32, 41);
+	border-radius: 50%;
+	margin-top: 3.5px;
+	margin-left: 3.5px;
+}
+h2 {
+	color: rgb(94, 99, 129);
+	text-transform: capitalize;
+}
+.dashboard {
+	margin-top: 50px;
+}
+.fa-brands {
+	font-size: 25px;
+	margin-top: 30px;
+}
+.box {
+	text-align: center;
+	background-color: #0e2346;
+	width: 220px;
+	height: 200px;
+	border-radius: 5px;
+	margin-bottom: -150px;
+}
+.facebook {
+	border-top: 5px rgb(0, 0, 255) solid;
+}
+.fa-square-facebook {
+	color: rgb(0, 0, 255);
+}
+.user {
+	font-size: 20px;
+	color: rgb(140, 149, 184);
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.count {
+	font-size: 42px;
+	font-weight: bold;
+	color: white;
+	margin-top: 15px;
+}
+h3 {
+	font-size: 12px;
+	color: rgb(140, 149, 184);
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.fa-caret-up {
+	color: green;
+	margin-top: 15px;
+}
+.fa-caret-down {
+	color: red;
+	margin-top: 15px;
+}
+.green {
+	color: green;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: 15px;
+}
+.red {
+	color: rgb(255, 0, 0);
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: 15px;
+}
+.twitter {
+	border-top: 5px rgb(0, 140, 255) solid;
+}
+.fa-twitter {
+	color: rgb(0, 140, 255);
+}
+.fa-instagram {
+	color:rgb(255, 153, 0) ;
+}
+.gradient {
+	width: 220px;
+	background: linear-gradient(to right,rgb(255, 153, 0),rgb(116, 1, 116)) ;
+	padding-top: 5px;
+	border-radius: 5px;
+	margin-top: 0.7px;
+}
+.fa-youtube {
+	color: red;
+}
+.youtube {
+	border-top: 5px red solid;
+}
+.overview {
+	margin-top: 200px;
+}
+.h1 {
+	color: white;
+}
+.stats {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.stats-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100px;
+	padding: 15px 30px;
+	background-color: #0e2346;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.page {
+	margin-top: 0;
+}
+.views {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 220px;
+}
